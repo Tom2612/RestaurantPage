@@ -1,0 +1,1 @@
+Restaurant page created using HTML, CSS and JS. Compiled with Webpack.

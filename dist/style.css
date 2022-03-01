@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top, transparent, black),
+        url("https://images.unsplash.com/photo-1579751626657-72bc17010498?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+#content {
+    position: relative;
+    min-height: 100vh;
+}
+h1 {
+    width: 90%;
+    font-family: 'Inspiration', sans-serif;
+    font-size: 5rem;
+    border-bottom: 1px solid white;
+    padding: 50px 0px;
+}
+.header {
+    height: 40%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nav {
+    width: 90%;
+    margin-top: 20px;
+    border-bottom: 1px solid white;
+}
+nav ul {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav li {
+    display: inline;
+    list-style: none;
+    transition: all 200ms;
+}
+.main {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    padding: 40px 100px 0 100px;
+}
+.subtext {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    padding: 40px 100px 0 100px;
+    background: linear-gradient(to top, transparent, black);
+}
+.footer {
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color:white;
+    position: absolute;
+    bottom: 0;
+}
+nav li:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.menu {
+    width: 65%;
+    min-width: 850px;
+    box-shadow: 0 0 40px 30px black;
+}
+.contact {
+    width: 100%;
+    padding: 25px;
+    border: 1px solid white;
+    border-radius: 3px;
+    box-shadow: 0 0 40px 30px black;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    grid-row-gap: 100px;
+}
